@@ -1,0 +1,47 @@
+body {
+    background-color: mediumseagreen;
+}
+
+h1{
+    display: flex;
+    justify-content: center
+}
+
+.parksForm {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: rgb(2, 114, 2);
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parksForm input {
+    width: 25%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parksForm span {
+    width: 50%;
+    max-width: 700px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parksForm button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 50%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resultsContainer {
+    display: none;
+}
